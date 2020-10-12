@@ -1,54 +1,65 @@
-.BJJ{
+.BJJ {
   color: white;
   background-color: darkorange;
   border-right: 1px solid black;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
-.box{
+
+.box {
   color: white;
   background-color: #0080FF;
-  font-size: 2vw;
+  font-size: 1.5vw;
   border-right: 1px solid black;
 }
-.biol2202{
+
+.biol2202 {
   background-color: #FBFF12;
-  font-size: 2vw;
+  font-size: 1.5vw;
   border-right: 1px solid black;
 }
-.biol3108{
+
+.biol3108 {
   background-color: #FDC609;
-  font-size: 2vw;
+  font-size: 1.5vw;
   border-right: 1px solid black;
 }
-.econ1102{
+
+.econ1102 {
   color: white;
   background-color: #75BB93;
-  font-size: 2vw;
+  font-size: 1.5vw;
   border-right: 1px solid black;
 }
-.econ2101{
+
+.econ2101 {
   color: white;
   background-color: #3098D3;
-  font-size: 2vw;
+  font-size: 1.5vw;
   border-right: 1px solid black;
 }
-.extra{
+
+.extra {
   border-top: 1px dashed white;
 }
-.time{
+
+.time {
   font-weight: bold;
   border-right: 2px solid;
 }
-body{
+
+body {
   font-family: 'Architects Daughter', cursive;
+  /*font-family: "Courier New", Courier, monospace;*/
 }
-table{
+
+table {
   border: 3px solid;
   margin: 0;
   border-spacing: 0;
   width: 100%;
 }
-td{
+
+td {
   border: none;
   margin: 0;
   padding: 0;
@@ -58,12 +69,18 @@ td{
   width: 12.5%;
   font-size: 2.5vw;
 }
-th{
+
+th {
   border-bottom: 2px solid;
   border-right: 1px solid;
   width: 12.5%;
   font-size: 3vw;
 }
 
-tr:nth-child(even) {background: #CCC}
-tr:nth-child(odd) {background: #FFF}
+tr:nth-child(even) {
+  background: #CCC
+}
+
+tr:nth-child(odd) {
+  background: #FFF
+}
