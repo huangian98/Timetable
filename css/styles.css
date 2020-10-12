@@ -39,6 +39,9 @@
   font-weight: bold;
   border-right: 2px solid;
 }
+body{
+  font-family: 'Architects Daughter', cursive;
+}
 table{
   border: 3px solid;
   margin: 0;
