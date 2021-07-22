@@ -1,0 +1,147 @@
+.header{
+  table-layout: auto;
+}
+
+.header-td{
+  background: black;
+  text-align: left;
+}
+
+img{
+  margin: 0 0 0 20px;
+}
+
+header{
+  margin: -10px -10px 15px -10px;
+  background-color: black;
+}
+
+body{
+  font-family: 'Josefin Slab', serif;
+}
+
+table{
+border: 3px solid;
+margin: 0;
+border-spacing: 0;
+width: 100%;
+table-layout: fixed;
+}
+
+td{
+border: none;
+margin: 0;
+padding: 0;
+border-spacing: 0;
+text-align: center;
+border-right: 1px solid;
+font-size: 1vw;
+}
+
+th{
+border-bottom: 2px solid;
+margin: 0;
+padding: 0;
+border-spacing: 0;
+text-align: center;
+border-right: 1px solid;
+font-size: 1.5vw;
+background-color: white;
+}
+
+hr{
+  border: 8px solid white;
+}
+
+.time{
+font-weight: bold;
+border-right: 2px solid;
+font-size: 1.5vw;
+}
+
+.bjj{
+color: #FFFFFF;
+background-color: #FF8C00;
+border-right: 1px solid black;
+}
+
+.biol3205{
+color: #FFFFFF;
+background-color: #22333B;
+border-right: 1px solid black;
+}
+
+.mma{
+color: #FFFFFF;
+background-color: #828E82;
+border-right: 1px solid black;
+}
+
+.striking{
+color: #FFFFFF;
+background-color: #520091;
+border-right: 1px solid black;
+}
+
+.poph3000{
+color: #FFFFFF;
+background-color: #3AA7A3;
+border-right: 1px solid black;
+}
+
+.biol2162{
+color: #FFFFFF;
+background-color: #8d9100;
+border-right: 1px solid black;
+}
+
+.neur3112{
+color: #FFFFFF;
+background-color: #BF3100;
+border-right: 1px solid black;
+}
+
+.add{
+border-top: 1px dashed white;
+}
+
+.header-h1{
+  padding: 20px 0 0 25px;
+  margin: 0;
+  color: white;
+  font-size: 25px;
+}
+.header-p{
+  padding: 0px 0px 10px 25px;
+  margin: 0;
+  color: white;
+  font-size: 12px;
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 120%;
+  margin: 0 0 -10px -10px;
+  padding: 5px 5px 5px 25px;
+  font-size: 12px;
+  background-color: darkgrey;
+}
+
+tr:nth-child(even){
+background: #FFF;
+}
+
+tr:nth-child(odd){
+background: #CCC;
+}
